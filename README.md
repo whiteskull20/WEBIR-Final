@@ -3,10 +3,10 @@
 ## Requirements:
 * Install Magenta
 * Install from requirements.txt
-* Stores index files to ppr4env_index/ (Or ![download here](https://drive.google.com/file/d/1lhJUTOcCuqM8UBSyr9coFTTl-xAcHMNI/view?fbclid=IwY2xjawKv4yFleHRuA2FlbQIxMABicmlkETF0ekI5VVhyY3VVZ1dBTWtDAR4B5sAlqB0BivRZvBawoy3TfNPKVFcWrt_qR54VndRCuVj0ohILGAiWXleFvg_aem_sQvaME05fxmz9QChgyQgnQ))
+* Stores index files to ppr4env_index/ (Or [download here](https://drive.google.com/file/d/1lhJUTOcCuqM8UBSyr9coFTTl-xAcHMNI/view?fbclid=IwY2xjawKv4yFleHRuA2FlbQIxMABicmlkETF0ekI5VVhyY3VVZ1dBTWtDAR4B5sAlqB0BivRZvBawoy3TfNPKVFcWrt_qR54VndRCuVj0ohILGAiWXleFvg_aem_sQvaME05fxmz9QChgyQgnQ))
 * Store query to query_dataset/
-* Store lmd_matched dataset to lmd_matched/ (From ![here](https://colinraffel.com/projects/lmd/))
-* Store queries and expanded queries to query_dataset/ (Or ![download here](https://drive.google.com/file/d/1BSNNtcqJzDYBTT8PCmIkfBm8QbVE0O9f/view?fbclid=IwY2xjawKv44hleHRuA2FlbQIxMABicmlkETF0ekI5VVhyY3VVZ1dBTWtDAR6r_Ubl043S9EYjR4V3Inwy5uaG9ZQAvMCtha8gq2aoSZZkO8emEnEG85xRuA_aem_wqbvHqre_y6Y2GyeTqS3Bg))
+* Store lmd_matched dataset to lmd_matched/ (From [here](https://colinraffel.com/projects/lmd/))
+* Store queries and expanded queries to query_dataset/ (Or [download here](https://drive.google.com/file/d/1BSNNtcqJzDYBTT8PCmIkfBm8QbVE0O9f/viewfbclid=IwY2xjawKv44hleHRuA2FlbQIxMABicmlkETF0ekI5VVhyY3VVZ1dBTWtDAR6r_Ubl043S9EYjR4V3Inwy5uaG9ZQAvMCtha8gq2aoSZZkO8emEnEG85xRuA_aem_wqbvHqre_y6Y2GyeTqS3Bg))
 
 ## Structure:
 * analyze_result.py: Analyze experiment results and plot charts.
