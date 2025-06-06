@@ -169,7 +169,7 @@ def main():
             # 執行搜尋  
             results = system.search(query_events, 
                                   window_distance=args.window_distance, 
-                                  limit=10)
+                                  limit=20)
             
             print(f"\n搜尋結果 (前10個):")
             print("=" * 80)

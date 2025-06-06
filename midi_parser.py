@@ -180,6 +180,8 @@ class MIDIEventExtractor:
         
         print(f"\n錯誤日誌已完成，共記錄 {len(self.error_files)} 個錯誤檔案")
 
+        
+
 # 測試範例
 class MIDIProcessor:
     def __init__(self, scanner, extractor):

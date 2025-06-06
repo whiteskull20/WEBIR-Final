@@ -71,7 +71,7 @@ class MelodyRNNMIDIExtender:
 
         
 class MusicLangMIDIExtender:
-    def __init__(self, model_path='musiclang/musiclang-v2', nb_tokens=512, temperature=1.0, top_p=1.0):
+    def __init__(self, model_path='musiclang/musiclang-v2', nb_tokens=1024, temperature=1.0, top_p=1.0):
         """
         Initializes the MIDIExtender class with the given parameters.
 
@@ -105,9 +105,9 @@ class MusicLangMIDIExtender:
         score.to_midi(output_file)
 # Example usage
 if __name__ == "__main__":
-    filename = "query_dataset/midi_queries/query_0001_TRDSYIU12903CB2494.mid"
+    filename = "query_dataset/midi_queries/query_0437_TRBBZQM128F931A529.mid"
     extender = MusicLangMIDIExtender()
-    extender.extend_midi(filename, "test_musiclang.mid")
+    extender.extend_midi(filename, "expanded_queries/query_0437_TRBBZQM128F931A529_1.mid")
     extender = PolyphonyMIDIExtender()
     extender.extend_midi(filename, "test_polyphony.mid")
     extender = MelodyRNNMIDIExtender()

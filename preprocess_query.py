@@ -9,7 +9,7 @@ def process_all_midi_queries():
     
     # Input and output directories
     input_dir = "query_dataset/midi_queries"
-    output_dir = "expanded_queries"
+    output_dir = "query_dataset/expanded_queries"
     
     # Create output directory if it doesn't exist
     os.makedirs(output_dir, exist_ok=True)
@@ -70,7 +70,7 @@ def process_all_midi_queries():
 def verify_results():
     """Verify that all expansions were created successfully"""
     input_dir = "query_dataset/midi_queries"
-    output_dir = "expanded_queries"
+    output_dir = "query_dataset/expanded_queries"
     
     # Get original files
     original_files = glob.glob(os.path.join(input_dir, "*.mid"))
